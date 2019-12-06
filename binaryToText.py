@@ -22,6 +22,7 @@ def convert(file):
   d.close()
   f.close()
 
-
 for i in range(1, len(sys.argv)):
   convert(sys.argv[i])
+
+os.system('pause')
